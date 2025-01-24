@@ -1,0 +1,1 @@
+gcc src/triangle-sapp.c src/sokol.c -o triangle-sapp -DSOKOL_GLCORE -pthread -Isokol -Ilibs -Isrc -lGL -ldl -lm -lX11 -lasound -lXi -lXcursor -Wall -Werror -o bin/triangle
