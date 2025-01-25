@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "imgui.h": "c",
+        "gui.h": "c"
+    }
+}

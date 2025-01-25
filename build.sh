@@ -1,1 +1,3 @@
-gcc src/triangle-sapp.c src/sokol.c -o triangle-sapp -DSOKOL_GLCORE -pthread -Isokol -Ilibs -Isrc -lGL -ldl -lm -lX11 -lasound -lXi -lXcursor -Wall -Werror -o bin/triangle
+gcc src/*.c src/*.cc -c -Isrc -Ilibs/imgui -Isokol -Isokol/util -Isokol/dbgui -DSOKOL_GLCORE &&\
+g++ *.o libs/imgui/*.o -o bin/triangle -pthread -lGL -ldl -lm -lX11 -lasound -lXi -lXcursor &&\
+ls -l bin/triangle
