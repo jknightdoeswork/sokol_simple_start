@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "imgui.h": "c",
-        "gui.h": "c"
+        "gui.h": "c",
+        "instancing-sapp.glsl.h": "c",
+        "handmademath.h": "c",
+        "sokol_app.h": "c",
+        "sokol_gfx.h": "c"
     }
 }

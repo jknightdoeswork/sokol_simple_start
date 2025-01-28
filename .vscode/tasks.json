@@ -3,8 +3,9 @@
     "tasks": [
         {
             "label": "build",
-            "type": "shell",
-            "command": "sh build.sh",
+            "type": "process",
+            "command": "make",
+            "args": ["-j11"],
             "problemMatcher": ["$gcc"],
         }
     ]
