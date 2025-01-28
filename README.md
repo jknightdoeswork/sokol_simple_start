@@ -8,8 +8,8 @@ The Makefile is setup to compile `src/*.c` and `src/*.cc` and to compile shaders
 To compile shaders you must build bin/sokol_shdc:
 
 ```
-git clone https://github.com/floooh/sokol-tools/
+git clone --recurse-submodules https://github.com/floooh/sokol-tools/
 cd sokol-tools
-sh docker_build
+sh build_docker.sh
 cp sokol-shdc path/to/this_project/bin
 ```
